@@ -1,0 +1,42 @@
+.navbar-wrapper {
+    min-height: 8%;
+    width: 100%;
+    justify-content: center;
+    gap: 5%;
+    background-color: white;
+    box-shadow: 0 1px 3px rgb(77 71 81 / 20%);
+}
+
+.icon-container {
+    height: 100%;
+    width: 5%;
+    border-left: 1px solid #d2d1d3;
+    border-right: 1px solid #d2d1d3;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.sign-up-form-wrapper {
+    min-height: 85vh;
+    width: 35vw;
+    margin: 2.5% auto;
+    border: 2px solid #CCCCCC;
+    background: white;
+}
+
+@media (max-width: 1500px) {
+    .navbar-wrapper {
+        flex-direction: column;
+        height: 100%;
+        width: 20%;
+        gap: none;
+    }
+
+    .icon-container {
+        width: 50%;
+        border-top: 1px solid #d2d1d3;
+        border-bottom: 1px solid #d2d1d3;
+        border-left: none;
+        border-right: none;
+    }
+}

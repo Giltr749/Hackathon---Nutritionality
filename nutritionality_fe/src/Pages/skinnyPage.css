@@ -1,0 +1,10 @@
+.skinny-page {
+    height: 100%;
+    width: 75%;
+}
+
+@media (max-width: 1500px) {
+    .skinny-page {
+        width: 100%;
+    }
+}

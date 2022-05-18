@@ -1,0 +1,23 @@
+.app-main-content {
+    height: 80%;
+    width: 100%;
+}
+
+.app-all-content {
+    height: 100%;
+    width: 100%;
+    gap: 1.5rem;
+    justify-content: flex-start;
+}
+
+.filler {}
+
+@media (max-width: 1500px) {
+    .app-all-content {
+        flex-direction: row;
+    }
+
+    .app-main-content {
+        height: 100%;
+    }
+}

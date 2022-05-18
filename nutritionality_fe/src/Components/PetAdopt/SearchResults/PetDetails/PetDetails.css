@@ -1,0 +1,38 @@
+.pet-details-container {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+.pet-details-inner-container {
+    height: 95%;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.pet-details-image-container {
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+}
+
+.pet-details-image {
+    height: 100%;
+    width: 100%;
+}
+
+.pet-details-grid-wrapper {
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.action-buttons-container {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.pet-details-button-container {
+    height: 2rem;
+    width: 20%;
+}

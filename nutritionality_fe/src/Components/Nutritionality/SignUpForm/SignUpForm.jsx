@@ -85,7 +85,7 @@ function SignUpForm({ formTitle, onAuthMethodChange, onSuccessfulSignUp, submitB
                     <Row styles='auth-wording-container'>
                         <div>{constants.SIGNUP_AUTH_PROMPT}</div>
                         <div
-                            className="peep-pets-link"
+                            className="nutritionality-link"
                             onClick={() => onAuthMethodChange && onAuthMethodChange(constants.LOG_IN_WORDING)}>
                             {constants.LOG_IN_WORDING}
                         </div>

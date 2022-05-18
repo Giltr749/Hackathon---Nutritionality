@@ -14,7 +14,7 @@ import './DishForm.css';
 
 // MUI Styling
 const Input = styled('input')({ display: 'none' });
-const INPUT_OVERRIDE_STYLES = { backgroundColor: 'brown', '&:hover': { backgroundColor: 'white', color: 'brown', border: '1px solid brown' } };
+const INPUT_OVERRIDE_STYLES = { backgroundColor: 'var(--theme-purple)', '&:hover': { backgroundColor: 'white', color: 'var(--theme-purple)', border: '1px solid var(--theme-purple)' } };
 
 DishForm.defaultProps = {
     dish: {

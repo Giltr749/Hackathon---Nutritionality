@@ -35,13 +35,12 @@
 }
 
 /* LINKS */
-.peep-pets-link {
-    color: brown;
-    text-decoration: underline;
+.nutritionality-link {
+    color: var(--theme-purple);
 }
 
-.peep-pets-link:hover {
-    color: rgb(85, 30, 30);
+.nutritionality-link:hover {
+    opacity: 0.7;
     text-decoration: underline;
 }
 

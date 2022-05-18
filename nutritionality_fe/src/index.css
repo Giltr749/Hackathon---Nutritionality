@@ -11,7 +11,7 @@
 
 :root {
     --theme-creme: #efeef1;
-    --theme-green: rgb(167, 67, 67);
+    --theme-purple: #6504B5;
     --font-black: #4d4751;
     --font-logo: 'Gochi Hand', cursive;
     --font-theme: 'Righteous', cursive;
@@ -27,8 +27,7 @@ body {
 body {
     min-height: 100%;
     width: 100%;
-    background-color: var(--theme-creme);
-
+    background-color: rgb(34, 197, 200);
 }
 
 #root {

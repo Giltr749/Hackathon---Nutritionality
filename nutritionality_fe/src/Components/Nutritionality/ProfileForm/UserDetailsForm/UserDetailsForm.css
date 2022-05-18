@@ -46,14 +46,14 @@
     outline: none;
     border: none;
     resize: none;
-    color: brown;
+    color: var(--theme-purple);
     border-radius: 5px;
     background-color: transparent;
 }
 
 .sign-up-fieldset:hover,
 .personal-bio-textarea:hover {
-    border: 1px solid brown;
+    border: 1px solid var(--theme-purple);
     transition: 0.15s ease-in;
 }
 
@@ -77,7 +77,7 @@
     outline: none;
     border: none;
     padding: 1rem;
-    color: brown;
+    color: var(--theme-purple);
     border-radius: 6px;
     border: 1px solid #d2d1d3;
 }

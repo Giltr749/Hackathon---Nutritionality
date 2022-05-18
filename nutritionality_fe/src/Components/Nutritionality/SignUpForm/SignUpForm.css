@@ -2,7 +2,6 @@
     height: 100%;
     width: 100%;
     justify-content: center;
-    background-color: white;
 }
 
 .sign-up-form {
@@ -33,13 +32,13 @@
     outline: none;
     border: none;
     resize: none;
-    color: brown;
+    color: var(--theme-purple);
     border-radius: 5px;
     background-color: transparent;
 }
 
 .sign-up-fieldset:hover {
-    border: 1px solid brown;
+    border: 1px solid var(--theme-purple);
     transition: 0.15s ease-in;
 }
 

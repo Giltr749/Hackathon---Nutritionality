@@ -1,8 +1,9 @@
 import axios from 'axios';
 
 // WORDING:
+export const COMPANY_NAME = 'Nutritionality';
 export const SUCCESSFUL_SIGN_UP_MESSAGE = "Successfully Signed Up!";
-export const USER_NAME_WORDING = 'UserName';
+export const USER_NAME_WORDING = 'Username';
 export const EMAIL_WORDING = 'Email';
 export const PASSWORD_WORDING = "Password";
 export const OLD_PASSWORD_WORDING = "Old Password";

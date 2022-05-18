@@ -65,7 +65,7 @@ function LogInForm({ successfulSignUpMessage, onAuthMethodChange }) {
                 </Row>
                 <Row styles='auth-wording-container'>
                     <div>{constants.LOGIN_AUTH_PROMPT}</div>
-                    <div className="peep-pets-link" onClick={() => onAuthMethodChange(constants.SIGN_UP_WORDING)}>{constants.SIGN_UP_WORDING}</div>
+                    <div className="nutritionality-link" onClick={() => onAuthMethodChange(constants.SIGN_UP_WORDING)}>{constants.SIGN_UP_WORDING}</div>
                 </Row>
                 <Row styles="login-form-conditional-messaging-container">
                     <>

@@ -3,7 +3,7 @@ import CompanyLogo from './CompanyLogo/CompanyLogo';
 import NavBar from './NavBar/NavBar';
 import AuthBar from './AuthBar/AuthBar';
 import Row from '../../General/Flexboxes/Row/Row';
-import { FaPaw } from "react-icons/fa";
+import { MdFoodBank } from "react-icons/md";
 import MUIModal from '../../General/Modals/MUIModal';
 import SignUpForm from '../SignUpForm/SignUpForm';
 import LogInForm from '../LogInForm/LogInForm';
@@ -35,7 +35,7 @@ function NavBarContents() {
                 names={constants.NAV_BAR_TAB_NAMES}
             />
             <Row styles='icon-container'>
-                <FaPaw></FaPaw>
+                <MdFoodBank className="company-icon"></MdFoodBank>
             </Row>
             {activeUser.restaurantId ?
                 <>

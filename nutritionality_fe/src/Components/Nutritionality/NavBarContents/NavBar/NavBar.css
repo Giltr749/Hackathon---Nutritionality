@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: transparent;
 }
 
 .navbar-tab {
@@ -16,7 +16,7 @@
 }
 
 .navbar-tab:hover {
-    color: var(--theme-green);
+    color: var(--theme-purple);
     transition: all 0.15s ease-in-out;
 }
 

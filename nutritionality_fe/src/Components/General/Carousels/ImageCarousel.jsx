@@ -28,10 +28,9 @@ function ImageCarousel({ images }) {
                                 key={index}
                                 src={image}
                                 className="carousel-image"
-                                alt="Dog #1"
+                                alt="Carousel Item"
                             />
-                        )
-                    ))}
+                        )))}
                 </div>}
         </>
     );

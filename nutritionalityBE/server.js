@@ -13,6 +13,7 @@ import db from './connection.js'
 import jwt from 'jsonwebtoken';
 import authenticateToken from './middlewares/authenticateToken.js';
 import userRouter from './routes/userRoutes.js';
+import restaurantRouter from './routes/restaurantRoutes.js'
 import multer from "multer";
 const upload = multer({ dest: process.env.UPLOAD_FOLDER + '/'});
 
@@ -36,28 +37,28 @@ app.use(session({
     }, 
 }));
 
+const input = {
+    "protein": 35,
+    "sodium": 400
+}
 
-app.get('/', authenticateToken, (req, res) => {
-    res.send(req.user);
-})
-
-app.post('/', (req, res) => {
-    const username = req.body.username;
-    const user = {
-        name: req.body.username,
-        id: req.body.id,
-        email: req.body.email
-    }
-    
-    const accessToken = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET);
-    res.json({ accessToken: accessToken });
-
-
-})
+const restaurants = {
+    "0": "tacobell",
+    "1": "mc",
+    "2": "tacobell",
+    "3": "wendys",
+    "4": "applebees",
+    "5": "mc",
+    "6": "tacobell",
+    "7": "wendys",
+    "8": "applebees",
+    "9": "mc"
+}
 
 
 app.post('/signup',signupValidation, upload.single('picture'), signupController.signup);
 app.post('/login',loginValidation, loginController.login);
 app.use('/user',authenticateToken, userRouter);
+app.use('/restaurant', authenticateToken, restaurantRouter);
 
 app.listen(process.env.PORT, () => console.log(`Listening at http://localhost:${process.env.PORT}`));

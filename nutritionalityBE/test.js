@@ -1,1 +1,3 @@
-console.log('object');
+const test = {
+    text: "Hello World!"
+};

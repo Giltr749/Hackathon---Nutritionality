@@ -24,7 +24,7 @@
     height: 100%;
     width: 100%;
     font-size: 2rem;
-    color: #4d4751;
+    color: var(--theme-yellow);
     text-align: center;
 }
 

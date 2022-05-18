@@ -50,10 +50,10 @@ const fetchRes = async (reqObj) => {
     // reqObj.input = inputs;
     // reqObj.restaurants = restaurants;
     // console.log(reqObj);
-    // const response = await client.post('http://ec2-18-192-181-8.eu-central-1.compute.amazonaws.com:8080/predict', reqObj);
+    const response = await client.post('http://ec2-18-195-21-247.eu-central-1.compute.amazonaws.com:8080/predict', reqObj);
     
 
-    console.log(reqObj);
+    // console.log(reqObj);
     return;
     // return response.data;
 

@@ -5,12 +5,15 @@ import db from '../connection.js'
 
 const getRes = async (req, res) => {
     
-    const requestJson = JSON.stringify(req.body);
-    
+    const body = {};
+    body.input = req.body.input;
+    body.restaurants = req.body.restaurants;
+    // const requestJson = JSON.parse(req.body);
+    console.log(req.body);
 
-    const response = await fetchRes(requestJson);
-    res.send(response)
-    // res.send(response.data);
+    const response = await fetchRes(body);
+    // res.send(requestJson)
+    res.send('hi');
 }
 
 

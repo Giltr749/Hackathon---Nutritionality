@@ -13,6 +13,7 @@
     --theme-creme: #efeef1;
     --theme-purple: #6504B5;
     --font-black: #4d4751;
+    --theme-yellow: rgb(255, 238, 47);
     --font-logo: 'Gochi Hand', cursive;
     --font-theme: 'Righteous', cursive;
 }
@@ -25,18 +26,16 @@ body {
 }
 
 body {
-    min-height: 100%;
+    height: 100%;
     width: 100%;
-    background-color: rgb(34, 197, 200);
+    background-color: var(--font-black);
 }
 
 #root {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2.5%;
     overflow-x: hidden;
-    overflow-y: scroll;
 }

@@ -1,5 +1,4 @@
 import * as constants from '../../../Utils/Constants/constants';
-import CompanyLogo from './CompanyLogo/CompanyLogo';
 import NavBar from './NavBar/NavBar';
 import AuthBar from './AuthBar/AuthBar';
 import Row from '../../General/Flexboxes/Row/Row';
@@ -23,13 +22,12 @@ function NavBarContents() {
         getUserGreeting,
         successfulSignUpHandler,
         authClickHandler,
-        adminClickHandler,
+        restaurantClickHandler,
         settingsClickHandler
     } = useNavBarContents();
 
     return (
         <Row styles='navbar-wrapper'>
-            <CompanyLogo />
             <NavBar
                 styles={constants.NAV_BAR_TAB_STYLES}
                 names={constants.NAV_BAR_TAB_NAMES}
@@ -42,7 +40,7 @@ function NavBarContents() {
                     <RestaurantBar
                         styles={constants.NAV_BAR_TAB_STYLES}
                         names={constants.ADMIN_BAR_NAMES}
-                        onAction={adminClickHandler}
+                        onAction={restaurantClickHandler}
                     />
                     <SettingsBar
                         styles={constants.NAV_BAR_TAB_STYLES}

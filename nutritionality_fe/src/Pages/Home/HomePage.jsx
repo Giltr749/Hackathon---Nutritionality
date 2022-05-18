@@ -1,3 +1,4 @@
+import Col from "../../Components/General/Flexboxes/Column/Col";
 import Row from "../../Components/General/Flexboxes/Row/Row";
 import HomeInfo from "../../Components/Nutritionality/HomeInfo/HomeInfo";
 import HomeSlides from "../../Components/Nutritionality/HomeSlides/HomeSlides";
@@ -6,10 +7,11 @@ import './HomePage.css';
 
 function HomePage() {
     return (
-        <Row styles='home-page skinny-page'>
+        <Col styles='home-page wide-page'>
+            <Row styles="home-page-title">{'Nutritionality'}</Row>
             <HomeInfo />
             <HomeSlides />
-        </Row>
+        </Col>
     );
 }
 

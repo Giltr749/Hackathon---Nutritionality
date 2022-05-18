@@ -6,7 +6,7 @@
 .app-all-content {
     height: 100%;
     width: 100%;
-    gap: 1.5rem;
+    margin-top: 1.5rem;
     justify-content: flex-start;
 }
 

@@ -16,7 +16,7 @@
 .card {
     border-radius: 12px;
     border: 1px solid #CCCCCC;
-    box-shadow: 0 1px 3px rgb(77 71 81 / 20%);
+    box-shadow: 0 1px 3px rgba(31, 29, 32, 0.2);
 }
 
 /* TITLE */
@@ -45,25 +45,11 @@
 }
 
 /* SCROLLBAR ANIMATION*/
-#root::-webkit-scrollbar,
-.pet-info-container::-webkit-scrollbar,
-.user-data-details-container::-webkit-scrollbar,
-.personal-bio-textarea::-webkit-scrollbar {
+body::-webkit-scrollbar {
     width: 12px;
 }
 
-#root::-webkit-scrollbar-thumb,
-.pet-info-container::-webkit-scrollbar-thumb,
-.user-data-details-container::-webkit-scrollbar-thumb,
-.personal-bio-textarea::-webkit-scrollbar-thumb {
-    background-color: var(--theme-green);
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(167, 166, 166);
     border-radius: 20px;
-    border: 3px solid var(--theme-green);
 }
-
-/* #root::-webkit-scrollbar-track,
-.personal-bio-textarea::-webkit-scrollbar-track {
-    background: transparent;
-    border: 2px solid var(--theme-green);
-    border-radius: 20px;
-} */

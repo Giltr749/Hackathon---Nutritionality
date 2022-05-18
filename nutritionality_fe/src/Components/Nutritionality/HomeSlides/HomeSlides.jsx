@@ -5,7 +5,7 @@ import './HomeSlides.css';
 
 function HomeSlides() {
     return (
-        <Col styles='home-slides-container card' >
+        <Col styles='home-slides-container' >
             <Col styles='home-slides-inner-container'>
                 <ImageCarousel
                     images={[home_page_food_image]}

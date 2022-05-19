@@ -13,12 +13,6 @@
     display: none;
 }
 
-.card {
-    border-radius: 12px;
-    border: 1px solid #CCCCCC;
-    box-shadow: 0 1px 3px rgba(31, 29, 32, 0.2);
-}
-
 /* TITLE */
 .nutritionality-title {
     height: 100%;

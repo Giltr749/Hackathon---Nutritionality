@@ -67,7 +67,7 @@ function NavBarContents() {
                     />}
             <MUIModal
                 content={formInModal === constants.SIGN_UP ?
-                    <Row styles='sign-up-form-wrapper card'>
+                    <Row styles='sign-up-form-wrapper'>
                         <SignUpForm
                             formTitle={SIGN_UP_WORDING}
                             submitButtonWording={SIGN_UP_WORDING}

@@ -22,7 +22,7 @@ function UserDetailsForm() {
     } = useUserDetailsForm();
 
     return (
-        <Col styles='update-user-details-form-container card'>
+        <Col styles='update-user-details-form-container'>
             <form className="update-user-details-form flex-col" onSubmit={updateUserDetailsHandler}>
                 <Row styles='email-phone-number-fields-wrapper'>
                     <Col styles='email-phone-number-fields-container'>

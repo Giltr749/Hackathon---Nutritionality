@@ -36,7 +36,7 @@ export const DISHES_WORDING = "Dishes";
 export const UPDATE_PASSWORD_WORDING = "Update Password";
 export const PERSONAL_DETAILS_WORDING = "Personal Details";
 export const UPDATE_USER_DETAILS_WORDING = "Update User Details";
-export const SEARCH_FORM_WORDING = "Find a Restaurant 🥘";
+export const SEARCH_FORM_WORDING = "Find a Restaurant";
 
 // STYLES:
 export const ENABLED_BUTTON_STYLE = 'general-button';

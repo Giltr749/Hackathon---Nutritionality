@@ -12,7 +12,7 @@ const PROFILE_FORM_TITLE = "My Profile 🏡";
 function ProfileForm() {
     return (
         <Col styles='profile-form-container'>
-            <Row styles='title-wrapper card'>
+            <Row styles='title-wrapper'>
                 <NutritionalityTitle
                     styles={NUTRITIONALITY_TITLE_STYLES}
                     wording={PROFILE_FORM_TITLE}

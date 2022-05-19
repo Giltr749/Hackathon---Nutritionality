@@ -21,7 +21,7 @@ function MyPets({ pets }) {
     return (
         <SymmetricalGrid styles='my-pets-container' numOfColumns={getNumOfColumns()}>
             {pets.map((pet, index) => (
-                <div className="pet card">
+                <div className="pet">
                     {<RestaurantResult
                         key={index}
                         pet={pet}

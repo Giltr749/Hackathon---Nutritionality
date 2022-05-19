@@ -27,7 +27,7 @@ function LogInForm({ successfulSignUpMessage, onAuthMethodChange }) {
     } = useLogInForm({ onAuthMethodChange });
 
     return (
-        <Col styles='log-in-form-container card'>
+        <Col styles='log-in-form-container'>
             <>
                 {(renderSuccessfulSignUpMessage && successfulSignUpMessage) &&
                     <Row styles='new-user-greeting-container'>

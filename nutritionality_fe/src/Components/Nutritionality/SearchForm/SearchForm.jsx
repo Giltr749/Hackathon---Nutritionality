@@ -30,7 +30,7 @@ function SearchForm({ onSearchRestaurants, onError }) {
     } = useSearchForm({ onSearchRestaurants, onError });
 
     return (
-        <Col styles='search-form-container card'>
+        <Col styles='search-form-container'>
             <Row styles='title-container'>
                 <NutritionalityTitle
                     styles={constants.NUTRITIONALITY_TITLE_STYLES}
@@ -38,7 +38,7 @@ function SearchForm({ onSearchRestaurants, onError }) {
                 />
             </Row>
             <form className="search-form flex-col" onSubmit={searchRestaurantsHandler}>
-                <Col styles='dish-info-container'>
+                <Col styles='dish-params-container'>
                     <Row styles='dish-detail-pair-container'>
                         <Row styles='dish-detail'>
                             <Row styles="category"><>{`${constants.PROTEIN_WORDING}:`}</></Row>
@@ -69,7 +69,7 @@ function SearchForm({ onSearchRestaurants, onError }) {
                     </Row>
                     <Row styles='dish-detail-pair-container'>
                         <Row styles='dish-detail'>
-                            <Row styles="category"><>{`${constants.CHOLESTEROL_WORDING} (cm):`}</></Row>
+                            <Row styles="category"><>{`${constants.CHOLESTEROL_WORDING}:`}</></Row>
                             <div className="answer">
                                 <input
                                     type="number"
@@ -82,7 +82,7 @@ function SearchForm({ onSearchRestaurants, onError }) {
                             </div>
                         </Row>
                         <Row styles='dish-detail'>
-                            <Row styles="category"><>{`${constants.CARBOHYDRATES_WORDING} (kg):`}</></Row>
+                            <Row styles="category"><>{`${constants.CARBOHYDRATES_WORDING}:`}</></Row>
                             <div className="answer">
                                 <input
                                     type="number"
@@ -97,7 +97,7 @@ function SearchForm({ onSearchRestaurants, onError }) {
                     </Row>
                     <Row styles='dish-detail-pair-container'>
                         <Row styles='dish-detail'>
-                            <Row styles="category"><>{`${constants.SODIUM_WORDING} (cm):`}</></Row>
+                            <Row styles="category"><>{`${constants.SODIUM_WORDING}:`}</></Row>
                             <div className="answer">
                                 <input
                                     type="number"
@@ -110,7 +110,7 @@ function SearchForm({ onSearchRestaurants, onError }) {
                             </div>
                         </Row>
                         <Row styles='dish-detail'>
-                            <Row styles="category"><>{`${constants.CALORIES_WORDING} (kg):`}</></Row>
+                            <Row styles="category"><>{`${constants.CALORIES_WORDING}:`}</></Row>
                             <div className="answer">
                                 <input
                                     type="number"

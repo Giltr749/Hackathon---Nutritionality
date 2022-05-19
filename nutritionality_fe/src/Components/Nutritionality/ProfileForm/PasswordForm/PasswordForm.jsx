@@ -26,7 +26,7 @@ function PasswordForm() {
     } = usePasswordForm();
 
     return (
-        <Col styles='password-form-container card'>
+        <Col styles='password-form-container'>
             <form className="password-form flex-col" onSubmit={updatePasswordHandler}>
                 <Row styles='title-wrapper'>
                     <NutritionalityTitle

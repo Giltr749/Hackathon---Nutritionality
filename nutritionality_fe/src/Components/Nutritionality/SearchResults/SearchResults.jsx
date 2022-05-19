@@ -5,7 +5,7 @@ import './SearchResults.css';
 
 function SearchResults({ restaurants, errorMessage }) {
     return (
-        <Col styles='search-results-container card'>
+        <Col styles='search-results-container'>
             <>
                 {errorMessage ?
                     <Row styles='nothing-found-message'>

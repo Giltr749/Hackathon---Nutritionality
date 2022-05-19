@@ -55,7 +55,7 @@ function DishForm({ dish, formActionType, onChangePetInfo }) {
     } = useDishForm({ dish, formActionType, onChangePetInfo });
 
     return (
-        <Col styles='dish-form-container card' >
+        <Col styles='dish-form-container' >
             <form className='dish-form flex-col' onSubmit={addOrEditDishHandler}>
                 <Row styles='dish-image-upload-container'>
                     <Stack direction="row" alignItems="center" spacing={2}>

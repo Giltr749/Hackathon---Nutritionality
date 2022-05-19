@@ -2,7 +2,6 @@ import * as restaurantService from "../../Services/restaurantService";
 import Dashboard from "../../Components/Nutritionality/Dashboard/Dashboard";
 import Row from "../../Components/General/Flexboxes/Row/Row";
 import { useState, useEffect } from "react";
-import '../widePage.css';
 
 function DashboardPage() {
     const [dishesData, setDishesData] = useState([]);

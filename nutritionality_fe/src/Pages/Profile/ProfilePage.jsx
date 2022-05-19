@@ -1,7 +1,6 @@
 import ProfileForm from '../../Components/Nutritionality/ProfileForm/ProfileForm';
 import Row from '../../Components/General/Flexboxes/Row/Row';
 import '../../Styles/general.css';
-import '../skinnyPage.css';
 
 function ProfilePage() {
     return (

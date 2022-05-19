@@ -1,6 +1,5 @@
 import Row from "../../General/Flexboxes/Row/Row";
 import home_page_food_image from '../../../Images/home_page_food_image.jpg';
-import NutritionalityTitle from "../../General/Title/NutritionalityTitle";
 import '../../../Styles/general.css';
 import './HomeInfo.css';
 

@@ -1,4 +1,4 @@
-import { HOME, PROFILE, SEARCH, DASHBOARD } from "../Utils/Constants/constants";
+import { HOME, PROFILE, DASHBOARD } from "../Utils/Constants/constants";
 import { Routes, Route } from "react-router-dom";
 import ActiveUserProvider from '../Components/Providers/AuthProvider/AuthProvider';
 import NavBarContents from "../Components/Nutritionality/NavBarContents/NavBarContents";
@@ -8,7 +8,6 @@ import Col from '../Components/General/Flexboxes/Column/Col';
 import Row from "../Components/General/Flexboxes/Row/Row";
 import HomePage from "../Pages/Home/HomePage";
 import ProfilePage from '../Pages/Profile/ProfilePage';
-import SearchPage from "../Pages/Search/SearchPage";
 import DashboardPage from '../Pages/Dashboard/DashboardPage';
 import './App.css';
 
@@ -16,7 +15,6 @@ function App() {
     return (
         <ActiveUserProvider>
             <Col styles='app-all-content'>
-                <Row styles='filler'></Row>
                 <NavBarContents />
                 <Col styles='app-main-content'>
                     <Routes>
@@ -29,13 +27,6 @@ function App() {
                             element={
                                 <ProtectedAuthRoute>
                                     <ProfilePage />
-                                </ProtectedAuthRoute>}
-                        />
-                        <Route
-                            path={SEARCH}
-                            element={
-                                <ProtectedAuthRoute>
-                                    <SearchPage />
                                 </ProtectedAuthRoute>}
                         />
                         <Route
